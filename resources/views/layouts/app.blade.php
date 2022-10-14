@@ -10,7 +10,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" ></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -18,6 +18,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="{{ mix('js/jszip.min.js') }}" ></script>
+
+    <link href="{{ mix('css/dx.common.css') }}" rel="stylesheet">
+    <link href="{{ mix('css/dx.light.css') }}" rel="stylesheet">
+    <script src="{{ mix('js/dx.all.js') }}" ></script>
+    <script src="{{ mix('js/dx.aspnet.data.js') }}" ></script>
+
 </head>
 <body>
     <div id="app">
@@ -57,7 +64,11 @@
                                     {{ Auth::user()->name }}
                                 </a>
 
+
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('post_index') }}">
+                                        POSTS
+                                    </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

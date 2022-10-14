@@ -1,4 +1,15 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/css/dx.common.css": "/css/dx.common.css",
+    "/css/dx.light.css": "/css/dx.light.css",
+    "/css/dx.darkviolet.css": "/css/dx.darkviolet.css",
+    "/js/dx.all.js": "/js/dx.all.js",
+    "/js/FileSaver.js": "/js/FileSaver.js",
+    "/js/jszip.min.js": "/js/jszip.min.js",
+    "/js/dx.messages.it.js": "/js/dx.messages.it.js",
+    "/js/dx.aspnet.mvc.js": "/js/dx.aspnet.mvc.js",
+    "/js/esm/aspnet.js": "/js/esm/aspnet.js",
+    "/js/aspnet.js": "/js/aspnet.js",
+    "/js/dx.aspnet.data.js": "/js/dx.aspnet.data.js"
 }
